@@ -18,3 +18,5 @@ while True:
     response = bytes("HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n{0}".format(PAGE), "utf-8")
     client_socket.sendall(response)
     client_socket.close()
+
+print("stoped")
